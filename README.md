@@ -376,17 +376,46 @@ Comprueba el estado de los servicios y la configuración del proxy de Nginx en `
 - No afirmes que una prueba fue exitosa si no has comprobado el resultado.
 - Revisa los registros de Docker cuando ocurra un error de ejecución.
 
-## 📸 13. Evidencias del proyecto
+## 📸 13. Evidencias y sustentación del proyecto
 
-La carpeta `evidencias/` debe contener capturas verificables de las pruebas realizadas.
+En esta sección se presentan las evidencias visuales del desarrollo y las pruebas del **Gestor de Tareas Full Stack con Docker**. Las capturas permiten identificar los procedimientos realizados durante las fases del taller y sirven como apoyo para explicar la construcción, ejecución y validación de la aplicación.
 
-Se recomienda organizar las evidencias por fase, de modo que cada imagen permita identificar:
+### 🖼️ Galería de evidencias — Fases 1 a 5
 
-1. El comando ejecutado.
-2. La salida que demuestra el resultado.
-3. La fase o requisito al que corresponde.
+<p align="center">
+  <img src="evidencias/Vista_previa_evidencias_fases_1_a_5.png" alt="Vista previa de las evidencias de las fases 1 a 5 del taller de Docker" width="100%">
+</p>
 
-Las capturas deben proceder de la ejecución real del proyecto. No sustituyas pruebas de funcionamiento por imágenes ilustrativas ni por capturas que no demuestren el resultado requerido.
+<p align="center">
+  <em>Figura 1. Resumen visual de las evidencias técnicas recopiladas durante el desarrollo del taller.</em>
+</p>
+
+### 🔎 ¿Qué demuestran las capturas?
+
+| Fase | Evidencia | Descripción |
+|---|---|---|
+| **Fase 1** | Ejecución de contenedores | Permite observar el estado de un contenedor mediante los comandos de Docker. |
+| **Fase 2** | Construcción y registros de la API | Documenta la construcción de la imagen y los mensajes de inicio del servicio. |
+| **Fase 3** | Comparación de versiones 1.0 y 1.1 | Presenta las imágenes y las respuestas de la API utilizadas para comparar ambas versiones. |
+| **Fase 4** | Persistencia en MySQL | Sirve de apoyo para explicar la conservación de los registros después de recrear el contenedor de base de datos. |
+| **Fase 5** | Aplicación con Docker Compose | Muestra los servicios del sistema y la interfaz del gestor de tareas, junto con la prueba de persistencia después del reinicio. |
+
+### 🎓 Sustentación técnica
+
+Las evidencias respaldan la explicación de los siguientes conceptos:
+
+- **Contenerización:** creación y ejecución de servicios aislados mediante Docker.
+- **Construcción de imágenes:** definición de las instrucciones necesarias para empaquetar la API.
+- **Versionamiento:** comparación del comportamiento de dos versiones de la API.
+- **Persistencia:** utilización de volúmenes para conservar los datos de MySQL.
+- **Orquestación:** configuración y administración conjunta del frontend, la API y la base de datos mediante Docker Compose.
+
+Las imágenes se presentan como documentación de apoyo. Los resultados deben interpretarse de acuerdo con lo que realmente muestra cada captura y complementarse con las comprobaciones realizadas en el entorno de ejecución.
+
+**Ubicación de las evidencias:** `evidencias/`
+
+La carpeta contiene el documento PDF del taller y los archivos gráficos utilizados para documentar las pruebas.
+
 
 ## 🤝 14. Reproducción por otro equipo
 
